@@ -372,7 +372,7 @@ class Plotter:
                 for v in graph_histogram:
                     if v != 1:
                         graph_histogram_without_one.append(v)
-                print str(graph_histogram_without_one)
+                print (str(graph_histogram_without_one))
 #                 print str(graph_histogram)
                 if not graph_histogram_without_one:
                     continue
